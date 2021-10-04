@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backbone.js • TodoMVC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>hej</h1>
+        </header>
+        <main>
+            <template id="list-item">
+                <li>
+                    <div class="page-note" id="backdrop"><input type="checkbox" id="checkbox"></input>
+                    <span class="note"></span>
+                    <button type="button" id="remove-list-item">❌</button>
+                    </div>  
+                </li>
+              </template>
+
+            
+            <form action="submit">
+            <input type="text" placeholder="What needs to be done?" id="searchbar"></input>
+
+                    
+                <ol class="notes" id="notes-list"></ol>
+                    
+                    
+            <aside class="footer">
+                <span id="items-left"></span>
+                <!-- <div class="filters">
+                            <button>All</button>
+                            <button>Active</button>
+                            <button>Completed</button>
+                </div> -->
+            </aside>
+            </form>  
+        </main>
+        <footer>
+            <p>Double-click to edit a todo</p>
+            <p>Written by <a href="https://github.com/addyosmani">Addy Osmani</a></p>           
+            <p>Part of <a href="https://todomvc.com/">TodoMVC</a></p>
+        </footer>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 255, 0.329);
+    width: 700px;
+    height: auto;
+}
+
+
+header h1 {
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+    font-size: 120px;
+    font-weight: normal;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+#searchbar {
+    display:block;
+    margin: 0 auto;
+    height: 80px;
+    width: 650px;
+    font-size: 24px;
+}
+
+#searchbar::placeholder {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 250px;
+    color: rgba(128, 128, 128, 0.575);
+}
+
+li {
+    list-style: none;
+}
+
+input[type="checkbox"]:checked + span {
+text-decoration: line-through;
+}
+
+.page-note {
+    display: inline;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+li {
+    margin: 0 auto;
+}
+.page-note:hover #remove-list-item {
+    visibility: visible;
+}
+#remove-list-item {
+    visibility: hidden;
+}
+
+ul > li {
+    margin: 0 15px 0 15px;
+    display: inline;
+}
+
+.filters li:hover {
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+.page-note {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    width: 648px;
+    border-top: 1px solid rgba(128, 128, 128, 0.65);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+footer {
+    text-align: center;
+    color: #bfbfbf;
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
